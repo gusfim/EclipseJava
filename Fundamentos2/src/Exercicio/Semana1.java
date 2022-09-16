@@ -5,7 +5,7 @@ import java.util.*;
 public class Semana1 {
 
 	public static void main(String[] args) {
-
+		//Primeiro arquivo no github
 		Scanner teclado = new Scanner(System.in);
 
 		System.out.println("Por favor digite o dia da semana: ");
