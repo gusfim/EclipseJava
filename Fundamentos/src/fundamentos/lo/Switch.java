@@ -28,8 +28,13 @@ public class Switch {
 		case "vermelha":{
 		}
 		break;
+		default:{
+			System.out.println("Valor digitado diferente!");
+		}
+		break;
 		}
 		System.out.println(cor + faixa);
+		
 	}
 
 }
