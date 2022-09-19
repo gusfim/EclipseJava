@@ -16,7 +16,8 @@ public class Desafio2 {
 		while (notaAtual != -1) {
 			System.out.println("Informe a nota: ");
 			notaAtual = teclado.nextDouble();
-			if (notaAtual <= 10 && notaAtual >= 0) {
+			
+			if (notaAtual >= 0 && notaAtual <= 10) {
 				total += notaAtual;
 				nota++;
 			}
@@ -26,7 +27,7 @@ public class Desafio2 {
 
 		}
 		double media = total / nota;
-		System.out.println("Media = " + media);
+		System.out.printf("Media = " + "%.2f", media);
 		teclado.close();
 	}
 
