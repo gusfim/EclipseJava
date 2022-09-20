@@ -7,7 +7,6 @@ public class DesafioData {
 		
 		ConstrutorData d1 = new ConstrutorData(5,11,2022);
 		
-		
 		ConstrutorData d2 = new ConstrutorData();
 
 		System.out.printf("Data padrão: " +String.format("%02d",d2.dia) 
