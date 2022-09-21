@@ -22,6 +22,7 @@ public class Exercise1 {
 		else {
 			System.out.printf("Aluno reprovado %.2f",  media);
 		}
+		teclado.close();
 	}
 
 }
