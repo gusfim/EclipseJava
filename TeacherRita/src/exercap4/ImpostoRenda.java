@@ -54,7 +54,7 @@ public class ImpostoRenda {
 			System.out.printf("\nValor a pagar de IR: " 
 			                             + "%.2f" ,ir);
 		}
-
+		teclado.close();
 	}
 
 }
