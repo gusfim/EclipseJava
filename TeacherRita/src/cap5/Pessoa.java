@@ -1,10 +1,10 @@
 package cap5;
 
 public class Pessoa {
-	String nome;
-	int idade;
-	char sexo;
-	String dados;
+	private String nome;
+	private int idade;
+	private char sexo;
+
 	
 	Pessoa(){
 		
