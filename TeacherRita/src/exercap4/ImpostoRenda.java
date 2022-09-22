@@ -28,8 +28,9 @@ public class ImpostoRenda {
 		else {
 			ir = salario * 0.275 - 869.36;
 		}
-		System.out.println("Valor do salario:" + salario);
-		System.out.printf("Valor do IR: %.2f" , ir);
+		System.out.println("Valor do salario: $" + salario);
+		System.out.printf("Valor do IR: $%.2f" , ir);
+		System.out.printf("\nSalario a receber: $%.2f", salario - ir);
 		teclado.close();
 	}
 
