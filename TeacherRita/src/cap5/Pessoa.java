@@ -38,8 +38,8 @@ public class Pessoa {
 	void mostrarDados() {
 		System.out.println("----------------------------------------");
 		System.out.println("Nome: " + getNome());
-		System.out.println("Nome: " + getIdade());
-		System.out.println("Nome: " + getSexo());
+		System.out.println("Idade: " + getIdade());
+		System.out.println("Sexo: " + getSexo());
 		
 	}
 	
