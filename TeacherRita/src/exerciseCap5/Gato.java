@@ -55,21 +55,12 @@ class Gato {
 		this.vacina = vacina;
 	}
 
-	Gato() {
-
-	}
-
 	void exibirDados() {
-		System.out.println("Nome: " + getNome() + "\n" + "Raca do animal e: " + getRaca() + "\n"
-				+ "A idade do animal e: " + getIdade()+" anos" + "\nAlimetacao " + getAlimetacao());
+		System.out.println("Nome: " + getNome() 
+		          + "\n" + "Raca do animal e: " + getRaca() 
+		          + "\n" + "A idade do animal e: " + getIdade()+" anos" 
+		          + "\nAlimetacao " + getAlimetacao());
 	}
-/*
-	void setDados(String nome, String raca, int idade) {
-		setNome(nome);
-		setRaca(raca);
-		setIdade(idade);
-
-	}*/
 
 	void exibVacina(boolean vacina) {
 		if (vacina == true) {
