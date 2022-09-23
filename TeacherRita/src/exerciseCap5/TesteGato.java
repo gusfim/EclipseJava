@@ -13,7 +13,7 @@ public class TesteGato {
 		g1.exibirDados();
 		g1.exibVacina(true);
 		
-		System.out.println("\n=====================================\n");
+		System.out.println("\n==============================================\n");
 		/*
 		Nome: Félix
 		Raça: Siamês
