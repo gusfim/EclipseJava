@@ -5,12 +5,15 @@ public class TesteGato {
 	public static void main(String[] args) {
 
 		Gato g1 = new Gato();		
-		g1.setDados("Mufasa","Vira-lata",2);
+		g1.setNome("Mufasa");
+		g1.setRaca("Vira-lata");
+		g1.setIdade(2);
+		g1.setVacina(true);
 		g1.setAlimetacao(g1.getIdade());
 		g1.exibirDados();
 		g1.exibVacina(true);
 		
-		System.out.println("--------------------------------");
+		System.out.println("\n=====================================\n");
 		/*
 		Nome: Félix
 		Raça: Siamês
