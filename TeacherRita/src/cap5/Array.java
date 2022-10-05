@@ -7,7 +7,7 @@ public class Array {
 		for(int x = 0 ; x < args.length ; x++) {
 			System.out.println(args[x]);
 		}
-		/*
+		
 		System.out.println("=================================================================");
 		String nome[] = new String[3];
 		nome[0] = "Gustavo";
@@ -16,7 +16,7 @@ public class Array {
 		
 		for(int i = 0 ; i < nome.length; i++) {
 			System.out.println(nome[i]);
-		}*/
+		}
 	}
 
 }
