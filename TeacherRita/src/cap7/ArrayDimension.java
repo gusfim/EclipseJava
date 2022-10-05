@@ -13,7 +13,8 @@ public class ArrayDimension {
 				System.out.println(cidade[i][j]);
 			}
 		}
-		System.out.println("================================================");
+		System.out.println("\n================================================");
+		System.out.println("\nUsing For improve\n");
 		for (String[] cidades : cidade) {
 			for (String c : cidades) {
 				System.out.println(c);
