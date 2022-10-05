@@ -3,7 +3,7 @@ package cap7;
 public class Array {
 
 	public static void main(String[] args) {
-	
+		System.out.println("Simple");
 		int x = 10;
 		int y = 20;
 		int z = 30;
@@ -17,11 +17,13 @@ public class Array {
 		System.out.println(numeros[1]);
 		System.out.println(numeros[2]);
 		
-		
+		System.out.println("===================================================================");
+		System.out.println("Using FOR");
 		for(int i = 0 ; i < 3; i++) {
 			System.out.println(numeros[i]);
 		}
-		
+		System.out.println("===================================================================");
+		System.out.println("Using String");
 		String nome [] = new String [3];
 		nome[0] = "Gustavo";
 		nome[1] = "Sam";
@@ -29,6 +31,13 @@ public class Array {
 		
 		for(int i = 0 ; i < nome.length ; i++) {
 			System.out.println(nome[i]);
+		}
+		
+		System.out.println("===================================================================");
+		System.out.println("Short Array");
+		int dezenas[] = {10 ,20,30};
+		for (int i = 0; i < dezenas.length; i++) {
+			System.out.println(dezenas[i]);
 		}
 		
 	}
